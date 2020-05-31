@@ -10123,11 +10123,11 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
   }
-}
+} */
 @media (min-width: 992px) {
   section.resume-section {
     padding-left: 3rem;
@@ -10135,4 +10135,22 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+@media (max-device-width: 480px) {
+ h1 {
+   font-size: 45px;
+ }
+}
+
+.bs-callout {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+
+.bs-callout-danger {
+  border-left-color: #d9534f;
 }
