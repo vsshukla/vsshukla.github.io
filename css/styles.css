@@ -10014,13 +10014,22 @@ body {
     padding-left: 17rem;
   }
 }
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   text-transform: uppercase;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
 }
 
 h1 {
@@ -10034,7 +10043,7 @@ p.lead {
 
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 500;
   font-size: 1.5rem;
 }
@@ -10141,6 +10150,11 @@ section.resume-section .resume-section-content {
  h1 {
    font-size: 45px;
  }
+
+ h2 {
+  font-size: 35px;
+}
+
 }
 
 .bs-callout {
